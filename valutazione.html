@@ -1,0 +1,100 @@
+<!-- FILEPATH: /c:/Users/bernn/Desktop/source-HACKAI/bot/index.html -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AI Bot Homepage</title>
+        <script src="bot.js"></script>
+        <style>
+            .navbar{
+                float: right;
+                
+            }
+            .nav-link{
+                color: #000000 !important;
+            }
+            .active{
+                font-weight: bold;
+            }
+            #smalltitle{
+                font-size: 20px;
+                font-weight: bold;
+                color: #000000;
+                padding-top:40px;
+            }
+            #titolo{
+                font-size: 150px;
+                color: #000000;
+                padding-top:40px;
+                font-weight: lighter;
+                text-align: center;
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body style="background-color: #6bec68;">
+        
+        <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Studente</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Valutazione</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Storico</a>
+                  </li>
+                  
+                  
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+          
+
+          
+            <p style="margin:2.5%;" id="smalltitle">THE NEXT LEVEL OF EDUCATION</p>
+            <div class="row">
+            </div>
+            <form class="row g-3">
+                <div class="col-6 offset-3 mt-5">
+                    <button type="button" class="btn btn-primary mb-3" style="width: 100%;" onclick="quiz()">Start Quiz!</button>
+                </div>
+                </form>
+            <h1 id="titolo">Stud.<b>IA</b></h1>
+
+            <div class="row">
+                <div class="col-10 offset-1 mt-5" id="result" style="visibility: hidden;">
+                    <div class="card text-bg-info" style="width: 100%;">
+                        <div class="card-body">
+                          <h5 class="card-title" id="question">Your question</h5>
+                          <hr/>
+                          <p class="card-text" id="answer">The answer</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+           
+
+          </div>
+
+        
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
